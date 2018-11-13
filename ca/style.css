@@ -58,6 +58,9 @@ body {
 .text-white{
    color: #ffffff !important;
 }
+.text-black{
+    color: #282837 !important;
+}
 .text-pink{
    color: #e591b0 !important;
 }
@@ -334,8 +337,9 @@ p {
 }
 
 .section-heading > h2 {
-    font-weight: 300;
-    color: #5b32b4;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    color: #46285a;
     font-size: 48px;
     margin: 0;
 }
@@ -587,14 +591,31 @@ p {
 /* --------------------------
 :: 3.0 Wellcome Area CSS
 -------------------------- */
-
+#HexaconBannerLeft{
+    opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+    position: absolute;
+    z-index: 50;
+    left: 5%;
+    top: 63%;
+}
+#HexaconBannerRight{
+    opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+    position: absolute;
+    z-index: 50;
+    right: 0;
+    top: 33%;
+}
 .wellcome_area {
-    background-image: url(images/bannerBG.png);
+     background-image: url(images/1x/headerbg.png);
     height: 110vh;
     position: relative;
+    margin: 0 auto;
     z-index: 1;
-    background-position: bottom center;
-    background-size: cover;
+    background-position: top center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .wellcome_area:after {
@@ -633,7 +654,7 @@ p {
     font-weight: 700;
     position: relative;
     z-index: 3;
-    padding-top: 30vh;
+    padding-top: 20vh;
 }
 .wellcome-heading > h3 {
     font-size: 24px;
@@ -719,7 +740,61 @@ p {
 /* --------------------------
 :: 4.0 Special Area CSS
 -------------------------- */
+#redGradientBG{
+    background: #eb5e5e;
+    background: -webkit-linear-gradient(to bottom, #eb5e5e, #c93442);
+    background: -webkit-linear-gradient(bottom, #eb5e5e, #c93442);
+    background: -webkit-gradient(linear,  top,  top, from(#eb5e5e), to(#c93442));
+    background: -o-linear-gradient(bottom, #eb5e5e, #c93442);
+    background: linear-gradient(to bottom, #eb5e5e, #c93442);
+}
+#greenGradientBG{
+    background: #5eb1ac;
+    background: -webkit-linear-gradient(to bottom, #5eb1ac, #11899d);
+    background: -webkit-linear-gradient(bottom, #5eb1ac, #11899d);
+    background: -webkit-gradient(linear,  top,  top, from(#5eb1ac), to(#11899d));
+    background: -o-linear-gradient(bottom, #5eb1ac, #11899d);
+    background: linear-gradient(to bottom, #5eb1ac, #11899d);
+}
+#purpleGradientBG{
+    background: #46285a;
+    background: -webkit-linear-gradient(to bottom, #46285a, #1c1338);
+    background: -webkit-linear-gradient(bottom, #46285a, #1c1338);
+    background: -webkit-gradient(linear,  top,  top, from(#46285a), to(#1c1338));
+    background: -o-linear-gradient(bottom, #46285a, #1c1338);
+    background: linear-gradient(to bottom, #46285a, #1c1338);
+}
+.counter-area-normal > h3 {
+    font-family: OstrichBold, Arial, sans-serif!important;
+    font-size: 80px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.special-area{
+    background-image: url(images/specialareabg.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -5;
+    background-position: top center;
+    background-size: 100% 100%;
+}
+.special-area-bg{
+    
+}
+.special-area > h2{
+    color: red;
+}
+.single-hexacon img{
+    position: absolute;
+    z-index: 20;
+    top: -30%;
+    transform: translatex(-50%);
+}
 
+.single-special:hover {
+    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+}
 .single-icon > i {
     font-size: 36px;
     color: #fb397d;
@@ -741,9 +816,9 @@ p {
 }
 
 .single-special {
+    position: relative;
     border: 1px solid #eff2f6;
     padding: 40px;
-    border-radius: 40px 40px 40px 0px;
     -webkit-transition-duration: 800ms;
     -o-transition-duration: 800ms;
     transition-duration: 800ms;
@@ -937,11 +1012,7 @@ p {
     z-index: 20;
 }
 
-
-
-
 .cool-facts-content > i {
-    
     font-size: 36px;
 }
 
@@ -956,7 +1027,9 @@ p {
     -ms-flex-item-align: end;
     align-self: flex-end;
 }
-
+.counter-area-home{
+    
+}
 .counter-area > h3 {
     font-family: OstrichBold, Arial, sans-serif!important;
     font-size: 80px;
@@ -1102,6 +1175,7 @@ p {
 -------------------------- */
 .clients-feedback-area{
    background-image: url("images/home/images/servicesBG_03.jpg");
+    background-size: cover;
 }
 .clients-feedback-area .client-name > h5 {
     color: #5b32b4;
@@ -1132,7 +1206,9 @@ p {
 }
 
 .clients-feedback-area .slick-dots {
-    display: -moz-flex;
+    display: none !important;
+    
+    /*----display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: -webkit-box;
@@ -1140,7 +1216,7 @@ p {
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center
+    justify-content: center; --*/
 }
 
 .clients-feedback-area .slick-dots li button {
@@ -1177,19 +1253,18 @@ p {
 
 
 .clients-feedback-area .slick-slide img {
-    width: 150px !important;
-    height: 150px !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .clients-feedback-area .slick-slide.slick-current img {
-    width: 100px !important;
-    height: 100px !important;
+    width: 120% !important;
+    height: 120% !important;
 }
 
 .clients-feedback-area .slick-arrow {
     position: absolute;
     width: 30px;
-    background-color: #fff;
     height: 100%;
     text-align: center;
     font-size: 24px;

@@ -110,9 +110,7 @@
     .counter-area {
         min-width: 50px;
     }
-    .counter-area > h3 {
-        font-size: 30px;
-    }
+   
     .app_screenshots_slides {
         padding: 0;
     }
@@ -129,6 +127,18 @@
     
 }
 @media (min-width: 320px) and (max-width: 767px) {
+    #HexaconBannerRight, #HexaconBannerLeft{
+        display: none;
+    }
+    .wellcome_area{
+        background-size: 110vh !important;
+    } 
+    .special-area{
+        background-size: 110vh !important;
+    } 
+    .xs-paddingtop20{
+        padding-top: 20px;
+    }
     .client-feedback-text{
     margin-bottom: 0px;
     }
