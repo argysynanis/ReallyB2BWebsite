@@ -32,7 +32,18 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    
+    .md-padding-20{
+        padding: 20px 0;
+    }
+    #mobHide{
+        display: none !important;
+    }
+    .zerothCounter{
+        font-size: 3em;
+    }
+    .zipcarCounter{
+        font-size: 3em;
+    }
     #meeting{
         margin-left: 0 !important;
     }
@@ -114,10 +125,7 @@
     .app_screenshots_slides {
         padding: 0;
     }
-    .clients-feedback-area .slick-slide.slick-current img {
-        width: 90px !important;
-        height: 90px !important;
-    }
+    
 }
 
 @media (min-width: 991px) and (max-width: 1325px) {
@@ -127,11 +135,25 @@
     
 }
 @media (min-width: 320px) and (max-width: 767px) {
+    .mob-text-center{
+        text-align: center !important;
+    }
+    #mobHide{
+        display: none !important;
+    }
+    .zerothCounter{
+        font-size: 3em !important;
+    }
+     .zipcarCounter{
+        font-size: 3em !important;
+    }
     #HexaconBannerRight, #HexaconBannerLeft{
         display: none;
     }
     .wellcome_area{
-        background-size: 110vh !important;
+        background-size: cover !important;
+        margin-bottom: 25% !important;
+        margin-top: 25% !important;
     } 
     .special-area{
         background-size: 110vh !important;
@@ -234,8 +256,8 @@
         height: 60px !important;
     }
     .clients-feedback-area .slick-slide.slick-current img {
-        width: 70px !important;
-        height: 70px !important;
+        width: 120px !important;
+        height: 120px !important;
     }
     .membership-description > h2 {
         font-size: 32px;
@@ -255,9 +277,24 @@
     .wellcome-heading,
    
     .cool_facts_area .col-12:last-of-type .single-cool-fact {
-        margin-bottom: 0;
+        
     }
-    
+    .sm-padding20{
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .mob-nopadding{
+        padding: 0 !important;
+    }
+    .border-left-green{
+        line-height: 54px;
+    }
+    .border-left-black{
+        line-height: 54px;
+    }
+    .border-left-pink{
+        line-height: 54px;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 767px) {

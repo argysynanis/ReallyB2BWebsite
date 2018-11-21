@@ -16,10 +16,10 @@
 
     <!-- Core Stylesheet -->
     <link href="style.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Responsive CSS -->
     <link href="css/responsive.css" rel="stylesheet">
-    
+   
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     <div id="preloader">
         <div class="colorlib-load"></div>
     </div>
-
+   
     <!-- ***** Header Area Start ***** -->
     <header class="header_area animated">
         <div class="container-fluid">
@@ -35,7 +35,7 @@
                 <!-- Menu Area Start -->
                 <div class="col-12 col-lg-12">
                     <div class="menu_area">
-                        <nav class="navbar navbar-expand-lg navbar-light ">
+                        <nav class="navbar navbar-expand-lg navbar-light">
                             <!-- Logo -->
                             <a class="navbar-brand" href="index.html">
                                 <img src="images/logo.svg">
@@ -45,7 +45,7 @@
                             <div class="collapse navbar-collapse bg-white" id="ca-navbar">
                                 <ul class="navbar-nav ml-auto" id="nav">
                                     <li class="nav-item active"><a class="nav-link" href="#home">About us</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#home">Our approach</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="pages/approach.html">Our approach</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#home">Our people</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#home">Resources</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#home">Awards</a></li>
@@ -79,33 +79,29 @@
                         </h2>   
                         <p>Real experts, real results, real ROI… Really B2B</p>
                     </div>
-                    <div class="get-started-button wow" data-wow-delay="0.5s">
+                    <div class="button-green wow" data-wow-delay="0.5s">
                         <a href="#">Get real results at @companyname@</a>
                     </div>
-                    <div class="wellcome-heading">
+                    <div class="wellcome-heading mt-50">
                         <a href="#cool_facts">
-                            <img src="images/arrowDown.svg" class="mt-100" id="arrowDown">
+                            <img src="images/home/arrowDown.svg" id="arrowDown">
                         </a>
                     </div>
                     <div class="wellcome-heading">
                         <h3>Our B2B marketing approach</h3>
                         <h4>We love numbers – especially those related to your business’ success…</h4>
-                        
                     </div> 
-                    
                 </div>
-                
-                
             </div>
         </div>
         <div class="container-fluid">
             <div id="HexaconBannerLeft">
-                <img src="images/1x/hexaconTransparent.png">
+                <img src="images/home/1x/hexaconTransparent.png">
             </div>
         </div>
         <div class="container-fluid">
             <div id="HexaconBannerRight">
-                <img src="images/1x/hexaconTransparent2.png">
+                <img src="images/home/1x/hexaconTransparent2.png">
             </div>
         </div>
     </section>
@@ -113,57 +109,60 @@
     
     
     <!-- ***** Cool Facts Area Start ***** -->
-    <section class="cool_facts_area clearfix" id="cool_facts">
+    <section class="cool_facts_area" id="cool_facts">
         <div class="container">
             <div class="row">
+
                 <!-- Single Cool Fact-->
-                <div class="col-12 col-md-4 col-lg-4 text-center">
-                    <div class="single-cool-fact justify-content-center wow fadeInUp text-center" data-wow-delay="0.2s">
-                        <div class="counter-bg">&nbsp;</div>
-                        <div class="counter-area text-center" id="#counter-area-home">
-                            <h3><span class="counter text-red text-center">12345</span></h3>
+                <div class="col-12 col-md-4 mt-5 xs-paddingtop20 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="counter-container text-center wow fadeInUp" >
+                        <div class="counter-area text-center">
+                            <h3><span class="counter text-pink text-center">12345</span></h3>
+                        </div>
+                        <div class="counter-bg mb-5">
+                            <img src="images/home/SVG/counterBG.svg" id="counterBG">
                         </div>
                     </div>
-                    <div class="justify-content-center wow fadeInUp text-center m-3" data-wow-delay="0.2s">
-                        <div class="cool-facts-content">
-                            <p class="text-red">leads generated</p>
-                        </div>
+                    <div class="cool-facts-content sm-padding20 text-center">
+                        <p class="text-pink ">leads generated</p>
                     </div>
                 </div>
+                
                 <!-- Single Cool Fact-->
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="single-cool-fact justify-content-center wow fadeInUp text-center" data-wow-delay="0.4s">
-                        <div class="counter-bg">&nbsp;</div>
-                        <div class="counter-area text-teal">
-                            <h3 class="text-teal">$<span class="counter text-teal">999</span><span class="million">m</span></h3>
+                <div class="col-12 col-md-4 mt-5 xs-paddingtop20 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="counter-container text-center wow fadeInUp" >
+                        <div class="counter-area text-center text-teal">
+                            <h3 class="text-teal ">$<span class="counter text-teal text-center">999</span><span class="million text-teal">m</span></h3>
                         </div>
-                        <div class="justify-content-center wow fadeInUp text-center m-3" data-wow-delay="0.2s">
-                            <div class="cool-facts-content">
-                                <p class="text-teal">accumulated sales</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-4 col-lg-4">
-                    <div class="single-cool-fact justify-content-center wow fadeInUp text-center" data-wow-delay="0.6s" style="position: relative;">
-                        <div class="counter-bg">&nbsp;</div>
-                        <div class="counter-area text-pink">
-                            <h3 class="text-pink">$<span class="counter">999</span><span class="million">m</span></h3>
-                        </div>
-                        <div class="justify-content-center wow fadeInUp text-center m-3" data-wow-delay="0.2s">
-                            <div class="cool-facts-content">
-                                <p class="text-pink">total ROI</p>
-                            </div>
+                        <div class="counter-bg mb-5">
+                            <img src="images/home/SVG/counterBG.svg" id="counterBG">
                         </div>
                     </div>
+                    <div class="cool-facts-content sm-padding20 text-center">
+                        <p class="text-teal">accumulated sales</p>
+                    </div>
                 </div>
+                
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-4 mt-5 xs-paddingtop20 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="counter-container text-center wow fadeInUp" >
+                        <div class="counter-area text-center">
+                            <h3 class="text-red">$<span class="counter text-red text-center">999</span><span class="million text-red">m</span></h3>
+                        </div>
+                        <div class="counter-bg mb-5">
+                            <img src="images/home/SVG/counterBG.svg" id="counterBG">
+                        </div>
+                    </div>
+                    <div class="cool-facts-content sm-padding20 text-center">
+                        <p class="text-red">total ROI</p>
+                    </div>
+                </div>
+                
                 <div class="col-12 col-md-8 offset-md-2 offset-sm-0 wow fadeInUp text-center" data-wow-delay="0.6s">
                     <div class="text-center section_padding_30_0">
                         <p>From global corporates to SMEs, we’ve spent more than a decade helping B2B brands grow and succeed in their industry, sector, and space.</p>
                     </div>
-                    <div class="get-started-button section_padding_20">
+                    <div class="button-green section_padding_20">
                         <a href="#">Check our numbers</a>
                     </div>
                 </div>
@@ -215,7 +214,7 @@
     <!-- ***** Brands Area End ***** -->
     
     <!-- ***** Green gradient Area Start ***** -->
-    <section class="brands_area clearfix background-gradeient-green section_padding_70">
+    <section class="brands_area clearfix background-gradient-green section_padding_70">
         <div class="container">
             <div class="row">
                <div class="col-12 col-md-8 offset-md-2 offset-sm-0 wow fadeInUp text-center " data-wow-delay="0.6s">
@@ -239,7 +238,27 @@
     <section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-12">
+                <!-- Client Thumbnail Area -->
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="slider slider-nav">
+                        <div class="client-thumbnail">
+                           <img src="images/home/Services/Creative.svg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="images/home/Services/LeadGen.svg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="images/home/Services/research.svg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="images/home/Services/Creative.svg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="images/home/Services/LeadGen.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="slider slider-for">
                         <!-- Creative Text  -->
                         <div class="client-feedback-text text-center">
@@ -289,29 +308,10 @@
                         
                     </div>
                 </div>
-                <!-- Client Thumbnail Area -->
-                <div class="col-12 col-md-12 col-lg-12">
-                    <div class="slider slider-nav">
-                        <div class="client-thumbnail">
-                           <img src="images/home/Services/Creative.svg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="images/home/Services/LeadGen.svg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="images/home/Services/research.svg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="images/home/Services/Creative.svg" alt="">
-                        </div>
-                        <div class="client-thumbnail">
-                            <img src="images/home/Services/LeadGen.svg" alt="">
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="col-12 wow fadeInUp text-center mt-3" data-wow-delay="0.6s">
-                    <div class="get-started-button section_padding_20">
-                        <a href="#">Check our numbers</a>
+                    <div class="button-purple">
+                        <a href="#">See how we do it</a>
                     </div>
                 </div>
             </div>
@@ -321,10 +321,10 @@
     
     
     <!-- ***** Special Area Start ***** -->
-    <section class="special-area bg-white" id="about">
+    <section class="special-area bg-white section_padding_0_100" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 wow fadeInUp" data-wow-delay="0.4s">
                     <!-- Section Heading Area -->
                     <div class="section-heading text-center mt-5">
                         <h2>Not bad, right?</h2>
@@ -334,10 +334,10 @@
 
             <div class="row mt-5">
                 <!-- Single Special Area -->
-                <div class="col-12 col-md-4 mt-5 xs-paddingtop20">
-                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s" id="redGradientBG">
+                <div class="col-12 col-md-4 mt-5 xs-paddingtop20 ">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s" id="redGradientBG">
                         <div class="single-hexacon text-white">
-                            <img src="images/SVG/NespressoHexacon.svg"/ width="150">
+                            <img src="images/home/SVG/NespressoHexacon.svg"/ width="150">
                         </div>
                         <div class="m-2">&nbsp;</div>
                         <h4 class="text-white">Case study<br>Headline 1</h4>
@@ -345,13 +345,16 @@
                             <h3><span class="counter text-black">12345</span></h3>
                         </div>
                         <h4 class="text-black">Leads generated</h4>
+                        <div class="button-white section_padding_20">
+                            <a href="#">Read more</a>
+                        </div>
                     </div>
                 </div>
                 <!-- Single Special Area -->
-                <div class="col-12 col-md-4 mt-5 xs-paddingtop20">
-                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s" id="greenGradientBG">
+                <div class="col-12 col-md-4 mt-5 xs-paddingtop20 ">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s" id="greenGradientBG">
                         <div class="single-hexacon text-white">
-                            <img src="images/SVG/TravelodgeHexacon.svg"/ width="150">
+                            <img src="images/home/SVG/TravelodgeHexacon.svg"/ width="150">
                         </div>
                         <div class="m-2">&nbsp;</div>
                         <h4 class="text-white">Case study<br>Headline 2</h4>
@@ -359,13 +362,17 @@
                             <h3><span class="counter text-black">12345</span></h3>
                         </div>
                         <h4 class="text-black">Leads generated</h4>
+                        <div class="button-white section_padding_20">
+                            <a href="#">Read more</a>
+                        </div>
                     </div>
+                    
                 </div>
                 <!-- Single Special Area -->
-                <div class="col-12 col-md-4 mt-5 xs-paddingtop20">
-                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s" id="purpleGradientBG">
+                <div class="col-12 col-md-4 mt-5 xs-paddingtop20 ">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.8s" id="purpleGradientBG">
                         <div class="single-hexacon text-white">
-                            <img src="images/SVG/zipcarHexacon.svg"/ width="150">
+                            <img src="images/home/SVG/zipcarHexacon.svg"/ width="150">
                         </div>
                         <div class="m-2">&nbsp;</div>
                         <h4 class="text-white">Case study<br>Headline 3</h4>
@@ -373,6 +380,9 @@
                             <h3><span class="counter text-teal">12345</span></h3>
                         </div>
                         <h4 class="text-teal">Leads generated</h4>
+                        <div class="button-white section_padding_20">
+                            <a href="#">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -382,557 +392,280 @@
     <!-- ***** Special Area End ***** -->
     
     <!-- ***** Zeroth campaign Start ***** -->
-    <section class="zeroth-campaign bg-white section_padding_50">
-        <div class="container-fluid">
+    <section class="zeroth-campaign bg-white section-padding-20">
+        <div class="container">
             <div class="row">
-                <!-- Single Brand-->
-                <div class="col-12 col-md-2 col-lg-3 vertical-middle section_padding_30">
-                    <div class="d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="brands">
-                            <img src="images/SVG/HexaconZeroth_1.svg"/>
+                <!-- Logo -->
+                <div class="col-12 col-lg-3 vertical-middle " id="mobHide">
+                    <div class="justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="zeroth text-left">
+                            <img src="images/home/SVG/HexaconZeroth_1.svg"/>
                         </div>
                     </div>
                 </div>
-                <!-- Single Brand-->
-                <div class="col-12 col-md-4 col-lg-3 vertical-middle section_padding_30">
-                    <div class="d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="brands">
-                            <img src="images/home/awards/award2.svg"/>
+                <!-- Text -->
+                <div class="col-12 col-md-6 col-lg-3 vertical-middle">
+                    <div class="justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="zeroth mob-text-center">
+                            <div>
+                                <img src="images/home/SVG/quoteLeft.svg" id="quote">
+                            </div>
+                            <span>Lorem ipsum dolor sit amet, litar consectetuer adipiscing elit, sed diam nonummy nibh euismod et tinciduntut laoreet dolore magna aliquam erat volutpat. Ut wisi eni ad minim veniam, quis nostrud lepsig donor und blitz.</span>
+                            <div>
+                                <img src="images/home/SVG/quoteright.svg" id="quote">
+                            </div>
+                            <div class="text-teal mt-3">
+                                <span>Lorem ipsum dolor sit amet</span>
+                            </div>
+                            <div class="button-green section_padding_20">
+                                <a href="#">Read more</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>  
+               
+                <!-- Stats -->
+                <div class="col-12 col-md-6 col-lg-6 vertical-middle mob-nopadding">
+                    <div class="justify-content-center wow fadeInRight" data-wow-delay="0.6s">
+                        <div class="zeroth text-white">
+                            <h3 class="text-white zerothCounter">
+                                <span class="counter text-white">999</span>%
+                            </h3>
+                        </div>
+                        <div class="zeroth">
+                            <img src="images/home/SVG/hexagonGradientGreen.svg" id="counterBG">
+                        </div>
+                        <div class="zeroth text-right">
+                            <img src="images/home/1x/GDHVbg.png"/>
                         </div>
                     </div>
                 </div>
-                <!-- Single Brand-->
-                <div class="col-12 col-md-2 col-lg-3 vertical-middle section_padding_30">
-                    <div class="d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="brands">
-                            <img src="images/home/awards/award3.svg"/>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Brand-->
-                <div class="col-12 col-md-4 col-lg-3 vertical-middle section_padding_30">
-                    <div class="d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="brands">
-                            <img src="images/home/awards/award4.svg"/>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
-    <!-- ***** Brands Area End ***** -->
+    <!-- ***** Zeroth Area End ***** -->
     
     
-    <!-- ***** Awesome Features Start ***** -->
-    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
+    <!-- ***** ZipCar campaign Start ***** -->
+    <section class="zeroth-campaign background-red md-padding-20">
+        <div class="container">
+            <div class="row background-red">
+                <!-- Stats -->
+                <div class="col-12 col-md-6 col-lg-6 vertical-middle mob-nopadding">
+                    <div class="justify-content-center wow fadeInLeft" data-wow-delay="0.6s">
+                        <div class="zeroth text-white">
+                            <h3 class="text-white zipcarCounter">
+                                <span class="counter text-white">999</span>%
+                            </h3>
+                        </div>
+                        <div class="zipcar">
+                            <img src="images/home/SVG/zipcarHexacon_1.svg" id="counterBG">
+                        </div>
+                        <div class="zeroth text-left">
+                            <img src="images/home/1x/zipcarBG.png"/>
+                        </div>
+                    </div>
+                </div>
+                <!-- Text -->
+                <div class="col-12 col-md-6 col-lg-3 vertical-middle sm-padding20">
+                    <div class="justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="zeroth mob-text-center text-white">
+                            <div class="">
+                                <img src="images/home/SVG/quoteLeft.svg" id="quote">
+                            </div>
+                            <span class="text-white">Lorem ipsum dolor sit amet, litar consectetuer adipiscing elit, sed diam nonummy nibh euismod et tinciduntut laoreet dolore magna aliquam erat volutpat. Ut wisi eni ad minim veniam, quis nostrud lepsig donor und blitz.</span>
+                            <div>
+                                <img src="images/home/SVG/quoteright.svg" id="quote">
+                            </div>
+                            <div class="text-white mt-3">
+                                <span>Lorem ipsum dolor sit amet</span>
+                            </div>
+                            <div class="button-white section_padding_20">
+                                <a href="#">Read more</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>  
+                <!-- Logo -->
+                <div class="col-12 col-lg-3 vertical-middle" id="mobHide">
+                    <div class="justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="zeroth text-center">
+                            <img src="images/home/SVG/zipcarHexacon.svg"/>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    <!-- ***** ZipCar Area End ***** -->
+    
+   <!-- ***** Green gradient Area Start ***** -->
+    <section class="brands_area clearfix background-gradient-green-reverce section_padding_70">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <!-- Heading Text -->
+                <div class="col-12 col-md-8 offset-md-2 offset-sm-0 wow fadeInUp" data-wow-delay="0.2s">
+                    <!-- Section Heading Area -->
                     <div class="section-heading text-center">
-                        <h2>Awesome Features</h2>
-                        <div class="line-shape"></div>
+                        <h2>Let's talk about real results at @companyname@</h2>
                     </div>
                 </div>
             </div>
-
             <div class="row">
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-user" aria-hidden="true"></i>
-                        <h5>Awesome Experience</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-pulse" aria-hidden="true"></i>
-                        <h5>Fast and Simple</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-dashboard" aria-hidden="true"></i>
-                        <h5>Clean Code</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-palette" aria-hidden="true"></i>
-                        <h5>Perfect Design</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-crown" aria-hidden="true"></i>
-                        <h5>Best Industry Leader</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-                <!-- Single Feature Start -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-feature">
-                        <i class="ti-headphone" aria-hidden="true"></i>
-                        <h5>24/7 Online Support</h5>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               <div class="col-12 col-md-8 offset-md-2 offset-sm-0 wow fadeInUp text-center " data-wow-delay="0.4s">
+                    <div class="text-center">
+                        <p class="text-white">Whether you’re looking for increased quality leads, expansion into new markets, or support with existing marketing strategies, we’ll help you meet your business targets.</p>
                     </div>
                 </div>
             </div>
-
-        </div>
-    </section>
-    <!-- ***** Awesome Features End ***** -->
-
-    <!-- ***** Video Area Start ***** -->
-    <div class="video-section">
-        <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <!-- Video Area Start -->
-                    <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
-                        <div class="video-play-btn">
-                            <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+             <!-- Single Cool Fact-->
+                <div class="col-12 col-md-4 mt-5 xs-paddingtop20 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="counter-container text-center wow fadeInUp" >
+                        <div class="counter-area text-center">
+                            <h3><span class="counter text-white text-center">12345</span></h3>
+                        </div>
+                        <div class="counter-bg mb-5">
+                            <img src="images/home/SVG/HexagonBorder.svg" id="counterBG">
                         </div>
                     </div>
+                    <div class="cool-facts-content sm-padding20 text-center">
+                        <p class="text-white">leads generated</p>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- ***** Video Area End ***** -->
-
-    <!-- ***** Cool Facts Area Start ***** -->
-    <section class="cool_facts_area clearfix">
-        <div class="container">
-            <div class="row">
+                
                 <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="counter-area">
-                            <h3><span class="counter">90</span></h3>
+                <div class="col-12 col-md-4 mt-5 xs-paddingtop20 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="counter-container text-center wow fadeInUp" >
+                        <div class="counter-area text-center text-white">
+                            <h3 class="text-white">$<span class="counter text-white text-center">999</span><span class="million text-white">m</span></h3>
                         </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-arrow-down-a"></i>
-                            <p>APP <br> DOWNLOADS</p>
+                        <div class="counter-bg mb-5">
+                            <img src="images/home/SVG/HexagonBorder.svg" id="counterBG">
                         </div>
                     </div>
+                    <div class="cool-facts-content sm-padding20 text-center">
+                        <p class="text-white">accumulated sales</p>
+                    </div>
                 </div>
+                
                 <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="counter-area">
-                            <h3><span class="counter">120</span></h3>
+                <div class="col-12 col-md-4 mt-5 xs-paddingtop20 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="counter-container text-center wow fadeInUp" >
+                        <div class="counter-area text-center">
+                            <h3 class="text-white">$<span class="counter text-white text-center">999</span><span class="million text-white">m</span></h3>
                         </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-happy-outline"></i>
-                            <p>Happy <br> Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="counter-area">
-                            <h3><span class="counter">40</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-person"></i>
-                            <p>ACTIVE <br>ACCOUNTS</p>
+                        <div class="counter-bg mb-5">
+                            <img src="images/home/SVG/HexagonBorder.svg" id="counterBG">
                         </div>
                     </div>
+                    <div class="cool-facts-content sm-padding20 text-center">
+                        <p class="text-white">total ROI</p>
+                    </div>
                 </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="counter-area">
-                            <h3><span class="counter">10</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-ios-star-outline"></i>
-                            <p>TOTAL <br>APP RATES</p>
-                        </div>
+            </div>
+            <div class="row">
+                <div class="col-12 wow fadeInUp text-center mt-5" data-wow-delay="0.8s">
+                    <div class="button-purple">
+                        <a href="#">Ready for real results?</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ***** Cool Facts Area End ***** -->
-
-    <!-- ***** App Screenshots Area Start ***** -->
-    <section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="screenshot">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>App Screenshots</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <!-- App Screenshots Slides  -->
-                    <div class="app_screenshots_slides owl-carousel">
-                        <div class="single-shot">
-                            <img src="img/scr-img/app-1.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src="img/scr-img/app-2.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src="img/scr-img/app-3.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src="img/scr-img/app-4.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src="img/scr-img/app-5.jpg" alt="">
-                        </div>
-                        <div class="single-shot">
-                            <img src="img/scr-img/app-3.jpg" alt="">
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** App Screenshots Area End *****====== -->
-
-    <!-- ***** Pricing Plane Area Start *****==== -->
-    <section class="pricing-plane-area section_padding_100_70 clearfix" id="pricing">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Heading Text  -->
-                    <div class="section-heading text-center">
-                        <h2>Pricing Plan</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row no-gutters">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Starter Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>29</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Basic Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>49</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan active text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Advenced Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>69</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Community Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>99</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Pricing Plane Area End ***** -->
-
-    
-
-    <!-- ***** CTA Area Start ***** -->
-    <section class="our-monthly-membership section_padding_50 clearfix">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-8">
-                    <div class="membership-description">
-                        <h2>Join our Monthly Membership</h2>
-                        <p>Find the perfect plan for you — 100% satisfaction guaranteed.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
-                        <a href="#">Get Started</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** CTA Area End ***** -->
-
-    <!-- ***** Our Team Area Start ***** -->
-    <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>Our Team</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-1.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Jackson Nash</h4>
-                            <p>Tax Advice</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-2.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Alex Manning</h4>
-                            <p>CEO-Founder</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-3.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Ollie Schneider</h4>
-                            <p>Business Planner</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-4.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Roger West</h4>
-                            <p>Financer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Our Team Area End ***** -->
-
-    <!-- ***** Contact Us Area Start ***** -->
-    <section class="footer-contact-area section_padding_100 clearfix" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>Get in touch with us!</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                    <div class="footer-text">
-                        <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
-                    </div>
-                    <div class="address-text">
-                        <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p>
-                    </div>
-                    <div class="phone-text">
-                        <p><span>Phone:</span> +11-225-888-888-66</p>
-                    </div>
-                    <div class="email-text">
-                        <p><span>Email:</span> info.deercreative@gmail.com</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <!-- Form Start-->
-                    <div class="contact_from">
-                        <form action="#" method="post">
-                            <!-- Message Input Area Start -->
-                            <div class="contact_input_area">
-                                <div class="row">
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <button type="submit" class="btn submit-btn">Send Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Message Input Area End -->
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Contact Us Area End ***** -->
+    <!-- ***** Green gradient End ***** -->
 
     <!-- ***** Footer Area Start ***** -->
-    <footer class="footer-social-icon text-center section_padding_70 clearfix">
-        <!-- footer logo -->
-        <div class="footer-text">
-            <h2>Ca.</h2>
-        </div>
-        <!-- social icon-->
-        <div class="footer-social-icon">
-            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-        </div>
-        <div class="footer-menu">
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- Foooter Text-->
-        <div class="copyright-text">
-            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
-            <p>Copyright ©2018 ReallyB2B</p>
+    <footer class="text-center section_padding_70 footer-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-2 col-sm-12 wow fadeInUp" data-wow-delay="0.2s">
+                    <!-- footer logo -->
+                    <div class="footer-text">
+                        <a href="index.html">
+                            <img class="footer-logo" src="images/home/SVG/logo.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-sm-12">
+                            <div class="col-12 footer-menu text-left">
+                                <ul class="text-left mob-text-center">
+                                    <li><a href="#">Pages</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-sm-12">
+                            <div class="col-12 footer-menu text-left ">
+                                <ul class="text-left mob-text-center">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="pages/approach.html">Approach</a></li>
+                                    <li><a href="#">Awards</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-sm-12">
+                            <div class="col-12 footer-menu text-left">
+                                <ul class="text-left mob-text-center">
+                                    <li><a href="#">People</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-sm-12">
+                            <div class="col-12 footer-menu text-left">
+                                <ul class="text-left mob-text-center">
+                                    <li><a href="#">Downloads</a></li>
+                                    <li><a href="#">Work</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Foooter Copyright-->
+                        <div class="col-12 footer-menu text-left">
+                            <div class="copyright-text text-left text-white mob-text-center mob-nopadding">
+                                <p class="text-white mob-nopadding">We are part of the MarketMakers Group / MarketMakers / Lead Forensics<br>
+                                    &copy; 2015 Really B2B / <a href="#">All rights reserved</a> / <a href="#">Privacy & Cookies</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-12 col-md-2 col-sm-12">
+                    <div class="footer-social-icon text-left mob-text-center mob-nopadding">
+                        <p>Follow us</p>
+                    </div>
+                    <div class="footer-social-icon mb-3 text-left mob-text-center mob-nopadding">
+                        <a href="#"><img src="images/home/SVG/twitter.svg"/></a>
+                        <a href="#"><img src="images/home/SVG/linkedin.svg"/></a>
+                        <a href="#"><img src="images/home/SVG/youtube.svg"/></a>
+                        <a href="#"><img src="images/home/SVG/Asset4.svg"/></a>
+                    </div>
+                    <div class="footer-social-icon text-left mob-text-center mob-nopadding mt-30">
+                        <p>Let’s talk <br>
+                            <a href="tel:02392315607" class="text-pink">T: +44 (0)23 9231 5607</a><br>
+                            <a href="mailto:info@reallyb2b.com" class="text-teal">E: info@reallyb2b.com</a>
+                        </p>
+                       
+                       
+                    </div>
+                   
+                </div>
+            </div>
         </div>
     </footer>
     <!-- ***** Footer Area Start ***** -->
+    
+    
 
     <!-- Jquery-2.2.4 JS -->
     <script src="js/jquery-2.2.4.min.js"></script>
